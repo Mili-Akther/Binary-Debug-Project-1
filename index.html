@@ -51,14 +51,17 @@
       body {
         margin: 0;
         font-family: "Poppins", sans-serif;
+         position: relative;
         
       }
     #particles-js{
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: #101010;
-       z-index: -1;
+    z-index: -1;
 }
     </style>
     <!-- Particles.js CDN -->
@@ -67,8 +70,9 @@
   <body class="font-Poppins">
     <!-- Background -->
         <div id="particles-js"></div>
+
     <!-- Main Content -->
-    <main>
+    <main class="relative z-10">
       <!-- Header Section -->
       <header class="bg-black text-white">
         <div class="container mx-auto flex justify-between items-center py-4">
@@ -127,21 +131,33 @@
        <!-- <section>
         <img src="Assets/hreo section side ].svg" alt="">
        </section> -->
-      <!-- Hero Section -->
-      <section class="text-center py-16">
-        <h2 class="text-2xl font-bold text-white uppercase tracking-widest">Welcome To</h2>
-        <h1 class="text-5xl font-bold mt-4 text-cyan-400">BINARY DEBUG</h1>
-        <p class="text-2xl mt-4  text-gray-500">Redefining Businesses with IT Services <br> Services</p>
-      </section>
+
+ <!-- Hero Section -->
+<div class="flex justify-center items-center relative mt-64 ">
+  <section class="relative text-center py-16 z-10 ">
+    <!-- Text Content -->
+    <h2 class="text-3xl font-semibold text-white uppercase tracking-widest mt-15">Welcome To</h2>
+    <h1 class="text-7xl font-bold text-cyan-400 mt-10">BINARY DEBUG</h1>
+    <p class="text-2xl  text-gray-300 uppercase mt-10">Redefining Businesses with IT Services <br> Services</p>
+  </section>
+
+  <!-- Background Circle -->
+  <div class="absolute shadow-[0_-20px_30px_0_rgba(0,255,255,0.5)] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[515px] h-[515px] bg-black-500  rounded-full z-0">
+    
+  </div>
+</div>
+
 
       <!-- Stats Section -->
-      <section class="bg-zinc-900 py-8 text-center rounded-xl  ">
-        <div class="grid grid-cols-4 gap-4 container mx-auto">
-          <div class="border border-white rounded-lg py-2 px-3 inline-block" style="width: 6rem; height: 6rem;">
+       <div class="relative z-10 bottom-[-100px] left-1/2 transform -translate-x-1/2 grid place-items-center divide-x-2">
+
+      <section class="bg-zinc-900 py-8 text-center border border-white rounded-3xl inline-block p-4">
+        <div class="grid grid-cols-4 gap-6 divide-x-2">
+          <div>
             <h3 class=" text-3xl text-white font-bold">500+</h3>
             <p class="text-white">Happy Clients</p>
           </div>
-          <div>
+          <div >
             <h3 class="text-3xl text-white font-bold">40+</h3>
             <p class="text-white">Finished Projects</p>
           </div>
@@ -149,12 +165,23 @@
             <h3 class="text-3xl text-white font-bold">50+</h3>
             <p class="text-white">Skilled Experts</p>
           </div>
-          <div>
+          <div >
             <h3 class="text-3xl text-white font-bold">100</h3>
             <p class="text-white">Media Posts</p>
           </div>
         </div>
       </section>
+      </div>
+
+<!-- Our Services Section -->
+     <section class="py-16">
+     <h3 class="text-6xl font-bold text-center mb-5">
+              Our Works Process
+            </h3>
+            <p class="text-center mb-5">
+             Our comprehensive range of services includes web design, mobile app development, SEO, social media <br> marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions <br>that drive results.
+            </p>
+      
     </main>
     <script src="script.js"></script>
   </body>
