@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary Debug</title>
+    <!-- particles  script.js CDN-->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/ca6929ffbd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- DaisyUi CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .font-Poppins {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <!-- background design -->
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        
+      }
+    #particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+       z-index: -1;
+}
+    </style>
+    <!-- Particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <body class="font-Poppins">
+    <!-- Background -->
+        <div id="particles-js"></div>
+    <!-- Main Content -->
+    <main>
+      <!-- Header Section -->
+      <header class="bg-black text-white">
+        <div class="container mx-auto flex justify-between items-center py-4">
+          <!-- Left Section: Logo -->
+          <img src="Assets/logo.svg" class="" alt="" />
+
+           <!-- Message Icon and Text -->
+          <div class="items-center hidden lg:flex space-x-10">
+             <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-message text-2xl"></i> 
+            <div>
+              <h5 class="font-bold">Online 24/7</h5>
+                <p class="text-xs">Binarydebug722@gmail.com</p>
+            </div>
+            </div>
+
+            <!-- Location Icon and Text -->
+              <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-location-dot text-2xl"></i>
+            <div>
+             <h5 class="font-bold">Agrabad,Chottogram</h5> 
+                <p class="text-xs">Chitttagong</p>
+            </div>
+            </div>
+
+              <!-- Phone Icon and Text -->
+               <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-phone-flip text-2xl"></i>
+            <div class="font-semibold">
+              +880 1782310773</div>
+          </div>
+          </div>
+
+          <!-- social media links -->
+          <div class="space-x-4">
+            <a href="#" class="text-white text-3xl"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="text-white text-3xl"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="text-white text-4xl"><i class="fa-brands fa-youtube"></i></i></a>
+            <a href="#" class="text-white text-4xl"><i class="fa-solid fa-xmark"></i></i></a>
+          </div>
+        </div>
+      </header>
+
+      <!-- nav section -->
+      <nav class="text-white py-4 bg-gray-700 bg-opacity-20 backdrop-blur-xl  ">
+        <ul class="flex justify-center space-x-16">
+          <li><a href="#home" class="hover:text-clifford">Home</a></li>
+          <li><a href="#services" class="hover:text-clifford">Service</a></li>
+          <li><a href="#work" class="hover:text-clifford">Our Work</a></li>
+          <li><a href="#why-us" class="hover:text-clifford">Why Us?</a></li>
+          <li><a href="#contact" class="hover:text-clifford">Contact</a></li>
+          <li><a href="#blogs" class="hover:text-clifford">Blogs</a></li>
+        </ul>
+      </nav>
+      <!-- sides img section -->
+       <!-- <section>
+        <img src="Assets/hreo section side ].svg" alt="">
+       </section> -->
+      <!-- Hero Section -->
+      <section class="text-center py-16">
+        <h2 class="text-2xl font-bold text-white uppercase tracking-widest">Welcome To</h2>
+        <h1 class="text-5xl font-bold mt-4 text-cyan-400">BINARY DEBUG</h1>
+        <p class="text-2xl mt-4  text-gray-500">Redefining Businesses with IT Services <br> Services</p>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="bg-zinc-900 py-8 text-center rounded-xl  ">
+        <div class="grid grid-cols-4 gap-4 container mx-auto">
+          <div class="border border-white rounded-lg py-2 px-3 inline-block" style="width: 6rem; height: 6rem;">
+            <h3 class=" text-3xl text-white font-bold">500+</h3>
+            <p class="text-white">Happy Clients</p>
+          </div>
+          <div>
+            <h3 class="text-3xl text-white font-bold">40+</h3>
+            <p class="text-white">Finished Projects</p>
+          </div>
+          <div>
+            <h3 class="text-3xl text-white font-bold">50+</h3>
+            <p class="text-white">Skilled Experts</p>
+          </div>
+          <div>
+            <h3 class="text-3xl text-white font-bold">100</h3>
+            <p class="text-white">Media Posts</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
