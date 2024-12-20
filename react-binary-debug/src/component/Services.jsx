@@ -1,3 +1,8 @@
+import WebIcon from "../assets/Web Development icon.svg"
+import vdoicon from "../assets/Video Editing  icon.svg";
+import graphics from "../assets/Graphics Design.svg";
+import uiux from "../assets/UI UX Design.svg";
+import SEO from "../assets/SEO.svg";
 const Services = () => {
   return (
     <section className="bg-black">
@@ -22,7 +27,7 @@ const Services = () => {
           <div className="card w-96 max-w-4xl shadow-cyan-800 shadow-[0_0_25px_5px] border-4 border-cyan-600 bg-neutral-950 rounded-2xl">
             <figure className="px-10 pt-8">
               <img
-                src="Assets/Web Development icon.svg"
+                src= {WebIcon}
                 alt="Web Development Icon"
                 className="mx-auto w-24 h-24"
               />
@@ -49,7 +54,7 @@ const Services = () => {
           <div className="card w-96 max-w-4xl shadow-cyan-800 shadow-[0_0_25px_5px] border-4 border-cyan-600 bg-neutral-950 rounded-2xl">
             <figure className="px-10 pt-8">
               <img
-                src="Assets/Video Editing icon.svg"
+                src={vdoicon}
                 alt="Video Editing Icon"
                 className="mx-auto w-24 h-24"
               />
@@ -76,7 +81,7 @@ const Services = () => {
           <div className="card w-96 max-w-4xl shadow-cyan-800 shadow-[0_0_25px_5px] border-4 border-cyan-600 bg-neutral-950 rounded-2xl">
             <figure className="px-10 pt-8">
               <img
-                src="Assets/Graphics Design.svg"
+                src={graphics}
                 alt="Graphics Icon"
                 className="mx-auto w-24 h-24"
               />
@@ -102,7 +107,7 @@ const Services = () => {
           <div className="card w-96 max-w-4xl shadow-cyan-800 shadow-[0_0_25px_5px] border-4 border-cyan-600 bg-neutral-950 rounded-2xl">
             <figure className="px-10 pt-8">
               <img
-                src="Assets/UI UX Design.svg"
+                src={uiux}
                 alt="UI/UX Icon"
                 className="mx-auto w-24 h-24"
               />
@@ -129,7 +134,7 @@ const Services = () => {
           <div className="card w-96 max-w-4xl shadow-cyan-800 shadow-[0_0_25px_5px] border-4 border-cyan-600 bg-neutral-950 rounded-2xl">
             <figure className="px-10 pt-8">
               <img
-                src="Assets/SEO.svg"
+                src={SEO}
                 alt="SEO Icon"
                 className="mx-auto w-24 h-24"
               />
